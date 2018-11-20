@@ -1,10 +1,12 @@
 body {
   background-color: #e0e0d1;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
   text-align: left;
-  margin-left: 2%
+  margin-left: 2%;
+  color: #848080;
 }
 
 .intro {
@@ -34,38 +36,46 @@ p {
 }
 
 .grid-container {
-display: grid;
-grid-template-rows: auto auto auto auto;
-border: none;
-background-color: #ffffff;
-margin-left: 20%;
-margin-right: 20%;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  border: none;
+  background-color: #ffffff;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-shadow: 1px;
 }
-.top{
+
+.top {
   text-align: center;
 }
-.movieOne{
+
+.movieOne {
   display: grid;
   grid-template-columns: auto auto;
 }
-.textOne strong{
+
+.textOne strong {
   display: flex;
   justify-content: center;
   color:
 }
-.movieTwo{
+
+.movieTwo {
   display: grid;
   grid-template-columns: auto auto;
 }
-.textTwo strong{
+
+.textTwo strong {
   display: flex;
   justify-content: center;
 }
-.movieThree{
+
+.movieThree {
   display: grid;
   grid-template-columns: auto auto;
 }
-.textThree strong{
+
+.textThree strong {
   display: flex;
   justify-content: center;
 }
@@ -102,4 +112,13 @@ ul {
   list-style-type: none;
   margin: 1%;
   overflow: hidden;
+}
+
+h2 {
+  color: #848080;
+}
+
+mark {
+  background: #c6c4c4;
+  color: #878484;
 }
